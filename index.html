@@ -1,52 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- GOOGLE FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;900&family=Roboto:wght@100;900&display=swap"
-        rel="stylesheet"
-        />
-        <!-- FONTAWESOME ICONOS -->
-        <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
-        crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="estilos.css">
-    </head>
-    <body>
-        <!-- HEADER -->
-        <header>
-        
-        </header>
-        <section class="home">
-            <img src="./img/fondoPrincipal4.jpg" alt="">
-        </section>
-        <section class="acercade">
-
-        </section>
-        <section class="articulos">
-
-        </section>
-        <section class="reseñas">
-
-        </section>
-        <section class="newsletter">
-
-        </section>
-        <section class="contacto">
-            <h2>Contacto</h2>
-	        <form method="POST" action="#">
-	        	<ul>
-	        		<li>Nombre:</li>
-	        			<input type="text" name="nombre" class="field" required></li>
-	        		<li>Apellido:</li>
-
-        </section>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;900&family=Roboto:wght@100;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTAWESOME ICONOS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      GRUPO6 ACA
+      <nav>
+        <ul>
+          <li><a href="#">Galeria</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#" class="btn">Iniciar Sesion</a></li>
+          <li><a href="#" class="btn">Registrarse</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <div class="contenedor">
+        <div class="contenedor-contenido">
+          <div class="bienvenida">
+            <h1>Bienvenidos a Grupo6 CAC</h1>
+            <p>
+              En <strong>Grupo6 CAC</strong>, entendemos que tu hogar es mucho
+              más que un lugar físico; es donde se teje la historia de tu vida.
+              Es el reflejo de tu estilo, tus gustos y tus sueños. Por eso, nos
+              enorgullece ofrecerte una amplia selección de artículos de
+              mobiliario y decoración cuidadosamente seleccionados para
+              transformar tu casa en un espacio acogedor y hermoso.
+            </p>
+            <a href="./templates/articulos.html" class="btn">Ver Más</a>
+          </div>
+          <img
+            src="./img/decoracion/imagen3.png"
+            alt="living room con muebles y ventanas muy grandes"
+            width="100%"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="sponsor">
+      <div class="contenedor">
+        <div class="logoSponsor">
+          <img src="./img/sponsor/sponsor1.png" alt="sponsor IMA" />
+          <img src="./img/sponsor/sponsor2.png" alt="sponsor tempo" />
+          <img src="./img/sponsor/sponsor3.png" alt="sponsor DB" />
+          <img src="./img/sponsor/sponsor4.png" alt="sponsor Muebles lagos" />
+        </div>
+        <div class="rango">
+          <div class="rating">
+            <h1>4.4</h1>
+            <div class="estrellas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>759 Ratings</p>
+            <p>Google Reviews</p>
+          </div>
+          <div class="cliente">
+            <h1>Nuestros Clientes</h1>
+            <p>Marcos Perez</p>
+            <p>
+              No puedo dejar de expresar mi gratitud y satisfacción con la
+              experiencia que tuve al comprar en <strong>Grupo6CAC</strong>.
+              Como amante de la decoración y el mobiliario de calidad, he
+              explorado muchas opciones, pero esta tienda es simplemente
+              excepcional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="servicios">
+      <div class="contenedor">
+        <div class="cabecera">
+          <h1>Nuestros Articulos</h1>
+          <a href="./templates/articulos.html" class="btn">Ver Más</a>
+        </div>
+        <div class="contenedorGrid">
+          <article class="servicio">
+            <img
+              src="./img/fondoPrincipal.avif"
+              alt="living room"
+              width="200px"
+            />
+            <h1>Diseño a Tu Medida</h1>
+            <p>
+              Creemos en la individualidad y la personalización. Con nuestra
+              gama de muebles personalizables, puedes diseñar tu propio
+              mobiliario. Desde la elección de telas y colores hasta la
+              configuración de estanterías y mesas a medida, estamos aquí para
+              dar vida a tus ideas y adaptar cada detalle a tus preferencias.
+            </p>
+          </article>
+          <article class="servicio">
+            <img
+              src="./img/fondoPrincipal1.avif"
+              alt="living room"
+              width="200px"
+            />
+            <h1>Elegancia Responsable</h1>
+            <p>
+              Nos comprometemos con la sostenibilidad y la responsabilidad
+              ambiental. Nuestra línea de muebles sostenibles está fabricada con
+              materiales ecoamigables y procesos de producción conscientes del
+              medio ambiente. Descubre una amplia gama de muebles que combinan
+              diseño elegante con la tranquilidad de saber que estás
+              contribuyendo al bienestar del planeta.
+            </p>
+          </article>
+          <article class="servicio">
+            <img
+              src="./img/fondoPrincipal4.jpg"
+              alt="living room"
+              width="200px"
+            />
+            <h1>Transforma Tu Rincón en un Oasis</h1>
+            <p>
+              No importa cuán pequeño sea tu espacio, nuestra selección de
+              decoración está diseñada para maximizar su belleza y utilidad.
+              Desde espejos que amplían visualmente una habitación hasta
+              soluciones de almacenamiento ingeniosas, te ayudaremos a convertir
+              cualquier rincón en un oasis de estilo y comodidad.
+            </p>
+          </article>
+        </div>
+        <hr />
+        Beneficios y Caracteristicas
+        <hr />
+        <div class="contenedorbeneficios">
+          <div class="contenedorBeneficio">
+            <h3>Características</h3>
+            <ul>
+              <li><i class="fas fa-check"></i>Ofrecemos productos únicos.</li>
+              <li><i class="fas fa-check"></i>Productos de alta calidad.</li>
+              <li><i class="fas fa-check"></i>Entrega rápida y confiable.</li>
+              <li>
+                <i class="fas fa-check"></i>Servicio al cliente excepcional.
+              </li>
+              <li><i class="fas fa-check"></i>Opciones de personalización.</li>
+            </ul>
+          </div>
+          <div class="contenedorBeneficio">
+            <h3>Beneficios</h3>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i>Transforma tu hogar con productos
+                exclusivos.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>Disfruta de muebles y decoración que
+                perduran.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>Recibe tus productos en poco tiempo.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>Obtén ayuda experta para tu
+                selección.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>Personaliza tu espacio de acuerdo a
+                tus deseos.
+              </li>
+            </ul>
+          </div>
+          <img src="./img/decoracion/imagen4.png" alt="" width="150px" />
+        </div>
+      </div>
+    </section>
+    <section id="experiencias">
+      <div class="contenedor">
+          <h1>Testimonios</h1>
+        <div class="contenedorGrid">
+          <div class="experiencia">
+            <div class="circuloFotoPerfil">
+              <img
+                src="./img/cliente/experiencia3.png"
+                alt="foto persona dando experiencia"
+                class="fotoPerfil"
+              />
+            </div>
+            <h3>Alicia rodriguez, buenos aires</h3>
+            <div class="estrellas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              "Muebles de calidad, entrega puntual, Grupo6 CAC cumplió mis
+              expectativas con creces."
+            </p>
+          </div>
+          <div class="experiencia">
+            <div class="circuloFotoPerfil">
+              <img
+                src="./img/cliente/experiencia1.png"
+                alt="foto persona dando experiencia"
+                class="fotoPerfil"
+              />
+            </div>
+            <h3>gustavo gonzalez, belgrano</h3>
+            <div class="estrellas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              "Muebles impecables, servicio amable, mi casa se siente
+              encantadora gracias a Grupo6 CAC"
+            </p>
+          </div>
+          <div class="experiencia">
+            <div class="circuloFotoPerfil">
+              <img
+                src="./img/cliente/experiencia2.png"
+                alt="foto persona dando experiencia"
+                class="fotoPerfil"
+              />
+            </div>
+            <h3>andrés morales, villa devoto</h3>
+            <div class="estrellas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              "Productos excepcionales, servicio estelar, mi experiencia de
+              compra en Grupo6 CAC fue excelente"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="newsletter">
+        <h1>Suscribete a nuestro Newsletter</h1>
+        <p>
+          Ingresa tu dirección de correo electrónico para registrarte en nuestra
+          suscripción al boletín informativo
+        </p>
+        <form action="">
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input type="submit" value="Enviar" class="btn" />
+        </form>
+      </div>
+      <div class="contenedorGrid">
+        <div class="redes-sociales">
+          <h4>Síguenos en Redes Sociales</h4>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i>
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/"
+                target="_blank" 
+              >
+                <i class="fab fa-twitter"></i>
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacto">
+            <h4>Contacto</h4>
+        <p>Estamos aquí para ayudarte. Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p>
+        <ul>
+            <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Dirección:</span> Buenos Aires
+            </li>
+            <li>
+                <i class="fas fa-phone"></i>
+                <span>Teléfono:</span> 1234567890
+            </li>
+            <li>
+                <i class="fas fa-envelope"></i>
+                <span>Correo Electrónico:</span> <a href="mailto:tu@email.com">Grupo6CAC@gmail.com</a>
+            </li>
+        </ul>
+        </div>
+        <div class="navegacion">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acercade.html" >Acerca de</a></li>
+            <li><a href="articulos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./funciones.js"></script>
+  </body>
 </html>
