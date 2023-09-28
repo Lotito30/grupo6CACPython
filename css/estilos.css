@@ -1,0 +1,35 @@
+:root{
+    --fontRoboto:"Roboto","San serif";
+    --fontLato:"Lato","San seLato";
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    display: inline-block;
+    color: inherit;
+}
+body{
+    /* background: linear-gradient(to right,#fff,#8b842ab3); */
+    /* background: linear-gradient(to bottom, #F5F5DC, #8B4513); */
+    background: linear-gradient(45deg, #F5F5DC, #8B4513, #F5F5DC, #8B4513);
+    height: 100%;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: -2;
+}
+
+section{
+    padding: 1rem;
+}
+section:nth-of-type(even){
+    background-color: #bfbfbf;
+}

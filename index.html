@@ -16,44 +16,40 @@
       href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="./css/head.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <title>Home - DecorArte</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      GRUPO6 ACA
+      <a href="./index.html"><img src="./img/logo.png" alt=""></a>
       <nav>
         <ul>
-          <li><a href="#">Galeria</a></li>
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#" class="btn">Iniciar Sesion</a></li>
-          <li><a href="#" class="btn">Registrarse</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="./templates/articulos.html">Articulos</a></li>
+          <li><a href="./templates/acercade.html">Acerca de</a></li>
+          <li><a href="./templates/contacto.html">Contacto</a></li>
+          <li><a href="#" >Iniciar Sesion</a></li>
+          <li><a href="#" >Registrarse</a></li>
         </ul>
       </nav>
     </header>
     <section id="home">
-      <div class="contenedor">
-        <div class="contenedor-contenido">
-          <div class="bienvenida">
-            <h1>Bienvenidos a Grupo6 CAC</h1>
-            <p>
-              En <strong>Grupo6 CAC</strong>, entendemos que tu hogar es mucho
-              más que un lugar físico; es donde se teje la historia de tu vida.
-              Es el reflejo de tu estilo, tus gustos y tus sueños. Por eso, nos
-              enorgullece ofrecerte una amplia selección de artículos de
-              mobiliario y decoración cuidadosamente seleccionados para
-              transformar tu casa en un espacio acogedor y hermoso.
-            </p>
-            <a href="./templates/articulos.html" class="btn">Ver Más</a>
-          </div>
-          <img
-            src="./img/decoracion/imagen3.png"
-            alt="living room con muebles y ventanas muy grandes"
-            width="100%"
-          />
+        <div class="contenedor">         
+            <div class="bienvenida">
+              <h1><span class="span1">Decor</span><span class="span2">Arte</span></h1>
+              <p>Transformando Espacios en Obras de Arte</p>
+              <a href="./templates/articulos.html" class="btn">Ver Articulos</a>
+            </div>
+            <img
+              src="./img/decoracion/imagen3.png"
+              alt="living room con muebles y ventanas muy grandes"
+              width="100%"
+            />
         </div>
-      </div>
     </section>
     <section id="sponsor">
       <div class="contenedor">
@@ -309,15 +305,15 @@
         <ul>
             <li>
                 <i class="fas fa-map-marker-alt"></i>
-                <span>Dirección:</span> Buenos Aires
+                <p>Dirección:</p> Buenos Aires
             </li>
             <li>
                 <i class="fas fa-phone"></i>
-                <span>Teléfono:</span> 1234567890
+                <p>Teléfono:</p> 1234567890
             </li>
             <li>
                 <i class="fas fa-envelope"></i>
-                <span>Correo Electrónico:</span> <a href="mailto:tu@email.com">Grupo6CAC@gmail.com</a>
+                <p>Correo Electrónico:</p> DecorArte@gmail.com
             </li>
         </ul>
         </div>
