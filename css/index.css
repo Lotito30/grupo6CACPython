@@ -1,4 +1,7 @@
 /* MAIN-HOME*/
+/* #home,header,#sponsor{
+    display: none;
+} */
 #home{
     height: 100vh;
 }
@@ -10,7 +13,7 @@
 }
 
 #home .bienvenida{
-    height: 250px;
+    height: 20vh;
     color: #fffff8; 
     display: flex;
     flex-direction: column;
@@ -29,13 +32,15 @@
 .bienvenida .span2{
     color: #FFCB77;
 }
-span{
+#home span{
     text-decoration: underline;
     font-size: 8rem;
 }
 .bienvenida p{
     font-size: 1.8rem;
     color: #F5F5DC;
+    font-weight: bold;
+    text-shadow: 0 0 5px #333;
 }
 .bienvenida a{
     text-align: center;
@@ -54,3 +59,71 @@ span{
     height: 100%;
     z-index: -1;
 }
+
+/* SPONSOR */
+
+#sponsor .contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+}
+#sponsor .logoSponsor{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logoSponsor img{
+    width: 120px;
+}
+
+.rango{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh;
+    padding: 1rem;
+}
+
+.rating{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cliente{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.rating h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: var(--fontRoboto);
+}
+.estrellas i{
+    color: gold;
+}
+.rating p{
+    font-weight: bold;
+}
+
+.cliente h1{
+    font-size: 3.5rem;
+}
+.cliente span{
+    font-size: 1rem;
+    color: #8B4513;
+}
+.cliente p{
+    width: 90%;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+/* SERVICIOS */
+

@@ -17,8 +17,9 @@ a{
 body{
     /* background: linear-gradient(to right,#fff,#8b842ab3); */
     /* background: linear-gradient(to bottom, #F5F5DC, #8B4513); */
-    background: linear-gradient(45deg, #F5F5DC, #8B4513, #F5F5DC, #8B4513);
+    background: linear-gradient(45deg, #F5F5DC, #462610);
     height: 100%;
+
 }
 
 .contenedor{
