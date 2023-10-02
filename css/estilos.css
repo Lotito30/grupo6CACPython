@@ -1,3 +1,4 @@
+
 :root{
     --fontRoboto:"Roboto","San serif";
     --fontLato:"Lato","San seLato";
@@ -18,13 +19,8 @@ a{
 body{
     /* background: linear-gradient(to right,#fff,#8b842ab3); */
     /* background: linear-gradient(to bottom, #F5F5DC, #8B4513); */
-    background: linear-gradient(45deg, #F5F5DC, #8B4513, #F5F5DC, #8B4513);
     height: 100%;
-    background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
-        background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-      
-      
-      
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);     
 }
 
 .contenedor{
@@ -32,10 +28,6 @@ body{
     margin: 0 auto;
     z-index: -2;
 }
-
 section{
-    padding: 1rem;
-}
-section:nth-of-type(even){
-    background-color: #bfbfbf;
+    padding: 3rem;
 }
