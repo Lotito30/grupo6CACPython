@@ -46,13 +46,26 @@ footer .contenedorGrid:not(.contacto .contenedorGrid){
     background-color: #df6b18;
     border-color: #fff;
 }
+
 .redes-sociales li{
     display: flex;
+    margin-bottom: 2rem;
     border-radius: 10px;
     align-items: center;
+    justify-content: center;
+}
+
+
+.redes-sociales a{
+    background-color: antiquewhite;
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 8rem;
+    text-align: center;
 }
 .redes-sociales i{
     color: #000;
+    font-size: 1.5rem;
 } 
 .contacto{
     text-align: center;
@@ -62,6 +75,8 @@ footer .contenedorGrid:not(.contacto .contenedorGrid){
 }
 .contacto i{
     color: #000;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
 }
 .navegacion{
     text-align: right;
@@ -70,4 +85,5 @@ footer .contenedorGrid:not(.contacto .contenedorGrid){
     color: #000;
     text-decoration: underline;
     font-size: 1rem;
+    margin-bottom: .5rem;
 }
