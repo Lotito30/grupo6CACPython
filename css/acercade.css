@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#acerca {
+    display: inline-block;
+    flex-direction: row;
+   
+}
+
+.img {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end
+    width; 500px;
+    height: 500px;
+    background: lightgrey;
+    padding:30px;
+   
+}
+h1 {
+    display: block;
+    margin-right: 40px;
+    font-size: 30px;
+    align-content: center;
+}
+
+.img p {
+    display: flex;
+    margin-right: 40px;
+    font-size: 18px;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.tabares img {
+    width; 200px;
+    height: 200px;   
+    border-radius: 50%;
+}
