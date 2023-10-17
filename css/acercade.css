@@ -77,11 +77,11 @@
 
 .team{
 
-    padding:10px;
+    padding:20px;
 }
 
 .tabares{
-    padding:10px;
+    padding:20px;
     display: flex;
 
 }
@@ -103,7 +103,7 @@ p h4{
 }
 
 .atn{
-    padding:10px;
+    padding:20px;
     display: flex;
 }
 
@@ -117,7 +117,6 @@ p h4{
     padding: 10px;
 
 }
-
 
 #sucursales{
     display:flex;
