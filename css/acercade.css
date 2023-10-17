@@ -9,37 +9,140 @@
 #acerca {
     display: inline-block;
     flex-direction: row;
-   
+    padding:15px;
+}
+    
+.container {
+ display: inline-flexbox;
+ flex-direction: row;  
 }
 
 .img {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end
-    width; 500px;
+    width: 500px;
     height: 500px;
     background: lightgrey;
-    padding:30px;
-   
+    padding:20px;
+    overflow: hidden; 
 }
-h1 {
-    display: block;
-    margin-right: 40px;
+
+#acerca h1 {
+    display: inline-block;
+    padding-top:100px;
+    padding-left: 80px;
     font-size: 30px;
     align-content: center;
+    align-items:center ;
 }
 
 .img p {
-    display: flex;
-    margin-right: 40px;
+    display: inline-flex;
+    margin: 20px;
     font-size: 18px;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 .tabares img {
-    width; 200px;
-    height: 200px;   
+    width: 120px;
+    height: 120px;   
     border-radius: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background: lightgrey;
+
+}
+
+.tabares p {
+    display: inline-flex;
+}
+.atn img {
+    display: inline-flex;
+    width: 120px;
+    height: 120px;   
+    border-radius: 50%;
+}
+
+#equipo {
+    display: inline-block;
+    flex-direction: row;
+    padding: 200px;
+    background: rgba(137, 43, 226, 0.849);
+}
+
+.team{
+
+    padding:10px;
+}
+
+.tabares{
+    padding:10px;
+    display: flex;
+
+}
+
+.tabares p{
+    display: flex;
+    padding: 10px;
+
+}
+.content {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+p h4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.atn{
+    padding:10px;
+    display: flex;
+}
+
+.content2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.atn p{
+    display: flex;
+    padding: 10px;
+
+}
+
+
+#sucursales{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size:16px ;
+    padding: 15px;
+
+}
+
+#sucursales a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 35%;
+    padding: 5px;
 }
