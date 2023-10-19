@@ -10,7 +10,7 @@ footer h3{
     color: beige;
 }
 
-footer .contenedorGrid:not(.contacto .contenedorGrid){
+footer .contenedorGrid{
     grid-template-columns: 1fr 2fr 1fr;
     justify-items: center;
     margin-top: 3rem;

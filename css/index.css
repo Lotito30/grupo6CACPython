@@ -2,9 +2,11 @@
     display: none;
 } */
  /* CLASES GENERALES */
-.escalar:hover{
+ .escalar:hover{
+    transition: transform 1s;
     transform: scale(1.1);
 }
+
 .plantillaCaja{
     box-shadow: 0 0 5px #000;
     border: 1px solid #000;
@@ -90,13 +92,10 @@
     position: fixed;
     bottom: 3%;right: 3%;
     z-index: -1;
-    width: 8rem;
+    width: 7rem;
     z-index: 10;
     cursor: pointer;
 }
-
-
-
 /* SPONSOR */
 
 #sponsor .contenedor{
@@ -114,7 +113,8 @@
 
 }
 .logoSponsor img{
-    width: 5rem;
+    width: 6rem;
+    animation: titila 2s alternate infinite;
 }
 
 .rango{
@@ -247,9 +247,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: url("../img/fondoExp1.avif");
+    background-image: url("../img/cliente/fondoCliente.jpg");
     padding: 2rem 1rem;
     width: 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #experiencias .contenedor h1{
@@ -312,13 +314,11 @@
 
 /* MEDIA QUERIES */
 /* Para pantallas grandes */
-@media (min-width:1024px) { 
-}
 
 /* Para tabletas */
 @media (min-width:768px) and (max-width:1023px) { 
     html{
-        font-size: 80%;
+        font-size: 90%;
     } 
     #experiencias .contenedorGrid{
         grid-template-columns: repeat(2,1fr);
@@ -327,9 +327,6 @@
     #experiencias .activar{
         display: block;
     }
-    /* .logoSponsor img{
-        width: 80px;
-    } */
 }
 
 /* Para móviles */
@@ -344,12 +341,17 @@
         font-size: 2rem;
     }
     #home span{
-        font-size: 7rem;
+        font-size: 6rem;
+    }
+    #home p{
+        text-align: center;
+        font-size: 1.5rem;
     }
     #experiencias .activar{
         display: block;
     }
-
+    .navegacion{
+        text-align: center;
+    }
 }
-  
   
