@@ -25,27 +25,3 @@ fetch(`https://newsapi.org/v2/everything?domains=wsj.com&apiKey=3f27b46fc422421c
   })
   .catch(error => console.log(`Error: ${error}`));
 
-  // RICK AND MORTY API
-// function obtenerPersonajes(hecho) {
-//     fetch('https://rickandmortyapi.com/api/character')
-//     .then(response => response.json())
-//     .then(data => {
-//       hecho(data)
-//     })
-//   }
-
-//  obtenerPersonajes(data => {
-//  data.results.forEach(personaje => {
-//       const article = document.createRange().createContextualFragment(/*html*/`
-//           <article class="escalar">
-//           <div class='contenedorImagen'>
-//             <img src="${personaje.image}" alt="">
-//           </div>
-//           <h2>${personaje.name}</h2>
-//           <span>${personaje.status}</span>
-//           </article>
-//       `);
-//       const main = document.querySelector('#rickMorty')
-//       main.append(article)
-//  })
-//  })
