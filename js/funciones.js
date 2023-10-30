@@ -23,6 +23,22 @@ fetch(urlApi)
   })
   .catch(error => console.log(`Error: ${error}`));
 
+const exp = document.querySelectorAll('.experiencia')
+
+function animacionExperiencia() {
+  exp.forEach(experiencia =>{
+  const elementoTop = experiencia.getBoundingClientRect().top
+  const windowHeight = window.innerHeight
+
+    if (elementoTop < windowHeight){
+      experiencia.classList.add('aparecer')
+    }
+  })
+}
+window.addEventListener('scroll',animacionExperiencia)
+window.addEventListener('load',animacionExperiencia)
+
+
 // RICK AND MORTY API
 // function obtenerPersonajes(hecho) {
 //     fetch('https://rickandmortyapi.com/api/character')

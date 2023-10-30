@@ -17,6 +17,7 @@ a{
     color: inherit;
 }
 body{
+    font-family: var(--fontRoboto);
     min-width: 350px;
     height: 100%;
     background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);     
